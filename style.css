@@ -1,0 +1,76 @@
+@import url("normalize.css");
+
+body {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+}
+
+h1 {
+  display: inline-block;
+  width: 400px;
+  height: 60px;
+  font-size: 1.3em;
+  border: black 5px solid;
+  margin: 1em 0 1em 0;
+}
+
+p {
+  text-align: center;
+  margin: 0.5em 0 2em 0;
+}
+
+#buttons {
+  text-align: center;
+  font-size: 0.8em;
+  letter-spacing: 15px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: 0;
+}
+
+/* #rock {
+  background-color: black;
+  color: white;
+  border: 0;
+} */
+
+#rock:hover {
+  background-color: #645f14; 
+}
+
+#paper:hover {
+  background-color: #00007E;
+}
+
+#scissors:hover {
+  background-color: #008317;
+}
+
+#score {
+  margin: 1em 0 0 0;
+  font-size: 1.3em;
+}
+
+#reset {
+  font-size: 0.8em;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  background-color: #850000;
+  cursor: pointer;
+}
+
+#output {
+  font-weight: bold;
+}
