@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 function computerPlay() {
   if (Math.floor(Math.random() * 3) === 0) {
     return 'paper';
